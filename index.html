@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>MAKET2.0</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="script.js"></script>
+</head>
+<body>
+	<header class="header">
+		<section class="header__menu menu">
+ 				<div class="menu__info info">
+	 				<select class="menu__list list" name="city[]" required="">
+					    <option selected value="Москва">Москва</option>
+					    <option value="Санкт-Петербург">Санкт-Петербург</option>
+					    <option value="Казань">Казань</option>
+				   </select>
+
+				   <a href="" class="menu__call phone__call">Обратный звонок</a>
+				   <p class="menu__time time">Пн-Вс 10-19</p>
+				   <a href="" class="menu__phone phone__call">8 (495) 229 85 59</a>
+				</div>
+
+				<div class="menu__logo logo">
+					<div class="logo__menu__btn menu__btn">
+						<img src="icon_menu.svg" class="logo__img">
+						<a href="Menu" class="logo__text">Меню</a>
+					</div>
+
+					<svg width="272" height="73" viewBox="0 0 272 73" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<rect y="28" width="194" height="20" fill="url(#pattern0)"/>
+					<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="194" height="48">
+					<rect width="194" height="48" fill="url(#pattern1)"/>
+					</mask>
+					<g mask="url(#mask0)">
+					<rect x="77" y="-2" width="38" height="30" fill="#AD2131"/>
+					</g>
+					<g clip-path="url(#clip0)">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M250.741 45.3269C251.585 45.0399 252.428 45.2155 252.593 45.7211C252.757 46.2266 252.201 46.8735 251.327 47.1606C250.454 47.4476 249.64 47.2762 249.476 46.7707C249.311 46.2651 249.868 45.6182 250.741 45.3269Z" fill="#E3051E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M255.039 44.0374C255.883 43.7503 256.727 43.926 256.887 44.4315C257.047 44.937 256.495 45.5797 255.621 45.871C254.748 46.1623 253.934 45.9824 253.77 45.4769C253.605 44.9713 254.166 44.3287 255.035 44.0374" fill="#E3051E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M257.258 45.7339C258.101 45.4425 258.945 45.6182 259.11 46.1237C259.274 46.6293 258.713 47.2762 257.844 47.5632C256.975 47.8503 256.157 47.6789 255.997 47.1734C255.836 46.6678 256.389 46.0209 257.262 45.7339" fill="#E3051E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M255.406 48.4201C256.25 48.1288 257.093 48.3045 257.254 48.81C257.414 49.3155 256.862 49.9625 255.988 50.2495C255.115 50.5365 254.301 50.3652 254.137 49.8596C253.972 49.3541 254.533 48.7072 255.402 48.4201" fill="#E3051E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M251.163 49.6754C252.007 49.3841 252.85 49.5597 253.01 50.0652C253.171 50.5708 252.618 51.2177 251.745 51.5047C250.872 51.7918 250.058 51.6204 249.893 51.1149C249.729 50.6093 250.29 49.9624 251.159 49.6754" fill="#E3051E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M248.872 47.9617C249.716 47.6746 250.56 47.8503 250.72 48.3558C250.88 48.8614 250.328 49.504 249.454 49.7953C248.581 50.0867 247.767 49.9067 247.603 49.4012C247.438 48.8956 247.999 48.253 248.868 47.9617" fill="#E3051E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M232.346 34.5692C251.247 29.0854 268.832 32.6842 271.625 42.5936C274.417 52.503 261.354 64.9872 242.453 70.441C229.799 74.1083 217.714 73.7013 210.282 70.0511C218.57 72.2447 230.351 71.9876 240.449 69.0615C257.153 64.216 268.71 53.1799 266.23 44.4058C265.133 40.5071 261.459 37.7095 256.25 36.2315C244.629 32.9369 230.448 35.4004 218.709 40.2287L218.617 40.2672C222.962 37.838 227.569 35.926 232.346 34.5692Z" fill="#E3051E"/>
+					<path d="M253.567 56.8497C253.36 57.9465 252.555 58.9918 251.711 58.9918C250.868 58.9918 250.644 58.255 250.644 57.6337C250.644 56.2328 251.61 54.759 252.998 54.759C253.314 54.7552 253.627 54.8195 253.917 54.9475L253.567 56.8497ZM249.383 61.828C249.9 62.1115 250.483 62.2491 251.07 62.2264C251.76 62.2451 252.435 62.0178 252.977 61.5838C253.559 61.0783 253.871 60.2514 254.099 59.0561L254.942 54.382C254.381 54.1284 253.776 53.9929 253.162 53.9836C251.015 53.9836 249.623 55.8901 249.636 57.8051C249.636 58.8119 250.21 59.7716 251.323 59.7716C251.727 59.7696 252.122 59.656 252.467 59.4432C252.812 59.2304 253.093 58.9262 253.28 58.5634H253.314L253.128 59.4203C252.795 60.954 252.061 61.4424 251.129 61.4424C250.616 61.4498 250.11 61.3213 249.661 61.0697L249.383 61.828ZM244.422 59.7716L244.929 57.0254C245.182 55.6202 246.148 54.789 246.823 54.789C247.497 54.789 247.696 55.2174 247.696 55.783C247.693 56.0264 247.666 56.269 247.616 56.507L247.008 59.7716H247.961L248.581 56.4727C248.639 56.1732 248.673 55.8695 248.683 55.5645C248.683 54.3735 247.936 53.9879 247.27 53.9879C246.852 53.9971 246.443 54.1154 246.083 54.3315C245.724 54.5476 245.425 54.8542 245.215 55.2217L245.35 54.1121H244.507C244.435 54.5791 244.368 55.1275 244.241 55.7615L243.494 59.7716H244.422ZM242.63 53.1439C242.715 53.1456 242.8 53.1299 242.879 53.0975C242.958 53.0652 243.03 53.017 243.09 52.9558C243.15 52.8946 243.198 52.8216 243.23 52.7413C243.261 52.661 243.277 52.575 243.275 52.4884C243.282 52.4097 243.272 52.3306 243.246 52.256C243.221 52.1815 243.18 52.1133 243.126 52.0559C243.073 51.9985 243.008 51.9531 242.937 51.9228C242.865 51.8925 242.788 51.8779 242.71 51.88C242.626 51.8806 242.543 51.898 242.466 51.9314C242.389 51.9647 242.319 52.0133 242.261 52.0743C242.202 52.1353 242.156 52.2075 242.126 52.2866C242.095 52.3658 242.08 52.4504 242.081 52.5355C242.074 52.6129 242.083 52.6909 242.108 52.7645C242.132 52.8381 242.171 52.9057 242.223 52.963C242.275 53.0203 242.337 53.066 242.408 53.0971C242.478 53.1283 242.553 53.1442 242.63 53.1439ZM241.786 59.7716L242.853 54.1121H241.908L240.837 59.7716H241.786ZM238.749 56.9783C238.509 58.2635 237.623 59.1204 236.889 59.1204C236.071 59.1204 235.843 58.4092 235.843 57.7323C235.843 56.2242 236.876 54.7847 238.209 54.7847C238.531 54.7743 238.849 54.8544 239.129 55.0161L238.749 56.9783ZM239.77 51.4688L239.276 54.1807C238.964 54.0486 238.628 53.9815 238.289 53.9836C236.324 53.9836 234.856 55.8301 234.856 57.8394C234.856 58.9961 235.442 59.8958 236.522 59.8958C236.933 59.8809 237.333 59.7577 237.683 59.5384C238.032 59.3191 238.32 59.0111 238.517 58.6448H238.542L238.391 59.7673H239.264C239.309 59.1658 239.39 58.5677 239.508 57.9765L240.744 51.4688H239.77ZM233.152 59.7716L234.717 51.4688H233.742L232.19 59.7716H233.152ZM229.238 54.7547C230.237 54.7547 230.537 55.6801 230.537 56.3356C230.537 57.6552 229.693 59.1289 228.558 59.1289C227.744 59.1289 227.251 58.4606 227.251 57.5395C227.247 56.2414 228.044 54.7547 229.238 54.7547ZM229.343 53.9836C227.538 53.9836 226.264 55.6973 226.264 57.5738C226.264 58.859 227.044 59.9001 228.432 59.9001C230.296 59.9001 231.511 58.0879 231.511 56.3442C231.511 55.136 230.845 53.9836 229.356 53.9836H229.343ZM220.498 51.8929L219.013 59.7716H219.966L220.658 56.0657H224.218L223.53 59.7716H224.484L225.981 51.8929H224.998L224.378 55.2132H220.818L221.451 51.8929H220.498ZM215.28 52.6983C215.544 52.6364 215.815 52.6091 216.086 52.6169C216.959 52.6169 217.579 52.9896 217.579 53.8336C217.579 54.7805 216.799 55.5859 215.592 55.5859H214.749L215.28 52.6983ZM213.006 59.7716H213.96L214.592 56.3442H215.436C216.204 56.3442 216.596 56.7983 216.651 57.8737C216.68 58.512 216.742 59.1484 216.836 59.7801H217.823C217.685 59.0741 217.605 58.3576 217.583 57.638C217.524 56.8197 217.262 56.2371 216.739 56.0486V56.0229C217.249 55.8982 217.704 55.6082 218.036 55.1968C218.368 54.7854 218.558 54.2752 218.579 53.7437C218.578 53.5004 218.527 53.2599 218.428 53.0383C218.329 52.8167 218.185 52.619 218.005 52.4584C217.477 52.0443 216.819 51.8402 216.153 51.8843C215.586 51.8844 215.021 51.9433 214.466 52.06L213.006 59.7716ZM209.274 52.6983C209.538 52.6364 209.808 52.6091 210.079 52.6169C210.952 52.6169 211.572 52.9896 211.572 53.8336C211.572 54.7805 210.792 55.5859 209.586 55.5859H208.742L209.274 52.6983ZM207 59.7716H207.953L208.586 56.3442H209.43C210.201 56.3442 210.59 56.7983 210.649 57.8737C210.678 58.512 210.74 59.1484 210.834 59.7801H211.821C211.683 59.0741 211.602 58.3576 211.581 57.638C211.522 56.8197 211.256 56.2371 210.737 56.0486V56.0229C211.246 55.8976 211.701 55.6073 212.033 55.1961C212.364 54.7848 212.555 54.275 212.576 53.7437C212.576 53.5004 212.525 53.2599 212.426 53.0383C212.327 52.8167 212.183 52.619 212.003 52.4584C211.475 52.0443 210.816 51.8402 210.151 51.8843C209.584 51.8842 209.019 51.943 208.464 52.06L207 59.7716Z" fill="white"/>
+					</g>
+					<defs>
+					<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+					<use xlink:href="#image0" transform="translate(0 -1.42475) scale(0.00505051 0.0489899)"/>
+					</pattern>
+					<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+					<use xlink:href="#image0" transform="translate(0 -0.0103114) scale(0.00505051 0.0204125)"/>
+					</pattern>
+					<clipPath id="clip0">
+					<rect width="65" height="41" fill="white" transform="translate(207 32)"/>
+					</clipPath>
+					<image id="image0" width="198" height="50" xlink:href="data:image/png;base64,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"/>
+					</defs>
+					</svg>
+
+					<div class="svg__head__min">
+						<svg class="svg__menumin" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M3 4.5C2.44772 4.5 2 4.94772 2 5.5V7.5C2 8.05228 2.44772 8.5 3 8.5H5C5.55228 8.5 6 8.05228 6 7.5V5.5C6 4.94772 5.55228 4.5 5 4.5H3Z" fill="white"/>
+						<path d="M8.75 5.75C8.33579 5.75 8 6.08579 8 6.5C8 6.91421 8.33579 7.25 8.75 7.25H26.25C26.6642 7.25 27 6.91421 27 6.5C27 6.08579 26.6642 5.75 26.25 5.75H8.75Z" fill="white"/>
+						<path d="M2 14.5C2 13.9477 2.44772 13.5 3 13.5H5C5.55228 13.5 6 13.9477 6 14.5V16.5C6 17.0523 5.55228 17.5 5 17.5H3C2.44772 17.5 2 17.0523 2 16.5V14.5Z" fill="white"/>
+						<path d="M8.75 14.75C8.33579 14.75 8 15.0858 8 15.5C8 15.9142 8.33579 16.25 8.75 16.25H26.25C26.6642 16.25 27 15.9142 27 15.5C27 15.0858 26.6642 14.75 26.25 14.75H17.5H8.75Z" fill="white"/>
+						<path d="M2 23.5C2 22.9477 2.44772 22.5 3 22.5H5C5.55228 22.5 6 22.9477 6 23.5V25.5C6 26.0523 5.55228 26.5 5 26.5H3C2.44772 26.5 2 26.0523 2 25.5V23.5Z" fill="white"/>
+						<path d="M8.75 23.75C8.33579 23.75 8 24.0858 8 24.5C8 24.9142 8.33579 25.25 8.75 25.25H26.25C26.6642 25.25 27 24.9142 27 24.5C27 24.0858 26.6642 23.75 26.25 23.75H8.75Z" fill="white"/>
+						</svg>
+
+						<a href="" class="menu__phone__min phone__call">8 (495) 229 85 59</a>
+
+						<svg class="svg__max" width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M6 10.5L24 10.5" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M21 7.5L24 10.5L21 13.5" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M24 20.5L6 20.5" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M9 23.5L6 20.5L9 17.5" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+
+						<svg class="svg__min" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12.3218 12.0426C13.9762 12.0426 15.4086 11.4492 16.5794 10.2785C17.7497 9.10795 18.3433 7.67573 18.3433 6.02111C18.3433 4.36706 17.7499 2.93464 16.5792 1.76372C15.4084 0.593375 13.976 0 12.3218 0C10.6672 0 9.23493 0.593375 8.0644 1.76391C6.89386 2.93445 6.30029 4.36687 6.30029 6.02111C6.30029 7.67573 6.89386 9.10814 8.0644 10.2787C9.23532 11.449 10.6677 12.0426 12.3218 12.0426ZM9.10047 2.79979C9.99863 1.90162 11.0523 1.46503 12.3218 1.46503C13.5911 1.46503 14.6449 1.90162 15.5433 2.79979C16.4415 3.69815 16.8782 4.75196 16.8782 6.02111C16.8782 7.29064 16.4415 8.34425 15.5433 9.24261C14.6449 10.141 13.5911 10.5776 12.3218 10.5776C11.0526 10.5776 9.99902 10.1408 9.10047 9.24261C8.20211 8.34444 7.76532 7.29064 7.76532 6.02111C7.76532 4.75196 8.20211 3.69815 9.10047 2.79979Z" fill="white"/>
+						<path d="M22.8578 19.222C22.8241 18.7349 22.7558 18.2035 22.6553 17.6423C22.5538 17.077 22.4231 16.5426 22.2667 16.0541C22.105 15.5492 21.8855 15.0506 21.6137 14.5728C21.3319 14.0769 21.0008 13.6451 20.6293 13.2898C20.2407 12.918 19.7651 12.6191 19.215 12.4011C18.6668 12.1843 18.0593 12.0744 17.4095 12.0744C17.1543 12.0744 16.9075 12.1791 16.4308 12.4894C16.1375 12.6808 15.7943 12.902 15.4114 13.1467C15.0839 13.3554 14.6402 13.5509 14.0922 13.7279C13.5576 13.9009 13.0148 13.9886 12.4788 13.9886C11.9432 13.9886 11.4004 13.9009 10.8654 13.7279C10.318 13.5511 9.87414 13.3556 9.54722 13.1469C9.16785 12.9045 8.82453 12.6832 8.52679 12.4893C8.05053 12.1789 7.80372 12.0742 7.54851 12.0742C6.89849 12.0742 6.29119 12.1843 5.74321 12.4013C5.19351 12.619 4.71763 12.9178 4.32872 13.29C3.95717 13.6455 3.62606 14.0771 3.34453 14.5728C3.07312 15.0506 2.85339 15.549 2.69165 16.0543C2.53544 16.5427 2.40478 17.077 2.30331 17.6423C2.20261 18.2027 2.13451 18.7343 2.10075 19.2226C2.06757 19.7 2.05078 20.1968 2.05078 20.6989C2.05078 22.0039 2.46563 23.0603 3.28369 23.8395C4.09164 24.6083 5.16052 24.9982 6.46075 24.9982H18.4984C19.7982 24.9982 20.8671 24.6083 21.6753 23.8395C22.4935 23.0609 22.9084 22.004 22.9084 20.6987C22.9082 20.1949 22.8912 19.6981 22.8578 19.222ZM20.6651 22.778C20.1313 23.2862 19.4225 23.5332 18.4982 23.5332H6.46075C5.53626 23.5332 4.82749 23.2862 4.29382 22.7782C3.77025 22.2799 3.51581 21.5995 3.51581 20.6989C3.51581 20.2304 3.53126 19.7679 3.56216 19.3238C3.5923 18.8882 3.6539 18.4097 3.74527 17.9012C3.83548 17.399 3.95031 16.9276 4.08687 16.501C4.21791 16.0919 4.39662 15.6867 4.61826 15.2965C4.82978 14.9246 5.07316 14.6055 5.34171 14.3483C5.59291 14.1078 5.90953 13.911 6.28261 13.7634C6.62765 13.6268 7.01541 13.552 7.43636 13.5408C7.48767 13.5681 7.57903 13.6201 7.72704 13.7166C8.02821 13.9129 8.37535 14.1368 8.7591 14.3819C9.19169 14.6577 9.74902 14.9068 10.4149 15.1218C11.0956 15.3419 11.7899 15.4537 12.479 15.4537C13.1681 15.4537 13.8626 15.3419 14.5429 15.122C15.2094 14.9066 15.7665 14.6577 16.1997 14.3815C16.5924 14.1305 16.9298 13.9131 17.231 13.7166C17.379 13.6203 17.4703 13.5681 17.5216 13.5408C17.9428 13.552 18.3305 13.6268 18.6758 13.7634C19.0487 13.911 19.3653 14.108 19.6165 14.3483C19.885 14.6053 20.1284 14.9244 20.3399 15.2967C20.5618 15.6867 20.7407 16.092 20.8715 16.5008C21.0083 16.928 21.1233 17.3991 21.2133 17.901C21.3045 18.4104 21.3663 18.8892 21.3964 19.324V19.3244C21.4275 19.7667 21.4431 20.2291 21.4433 20.6989C21.4431 21.5997 21.1887 22.2799 20.6651 22.778Z" fill="white"/>
+						</svg>
+
+						<svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip1)">
+						<path d="M27.3423 26.0064L20.5562 19.2203C21.8831 17.5822 22.6819 15.4995 22.6819 13.2321C22.6819 7.97569 18.4054 3.69922 13.149 3.69922C7.89263 3.69922 3.61621 7.97569 3.61621 13.2321C3.61621 18.4885 7.89268 22.7649 13.1491 22.7649C15.4165 22.7649 17.4992 21.9662 19.1373 20.6393L25.952 27.454C26.1606 27.6333 26.8017 28.0335 27.3811 27.454C27.8831 26.952 27.5252 26.1893 27.3423 26.0064ZM13.1491 20.758C8.99904 20.758 5.62314 17.3821 5.62314 13.2321C5.62314 9.08205 8.99904 5.70615 13.1491 5.70615C17.2991 5.70615 20.675 9.08205 20.675 13.2321C20.675 17.3821 17.2991 20.758 13.1491 20.758Z" fill="white"/>
+						</g>
+						<defs>
+						<clipPath id="clip1">
+						<rect width="30" height="30" fill="white" transform="translate(0 0.5)"/>
+						</clipPath>
+						</defs>
+						</svg>
+
+						<svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M27.4331 11.8672C27.2908 11.735 27.0945 11.6726 26.8999 11.6949H20.734V9.18446C20.734 6.50131 18.4401 4.33778 15.6251 4.33778C12.8101 4.33778 10.5163 6.50131 10.5163 9.18446V11.6949H4.34268L4.33587 11.6949C4.25283 11.6948 4.15286 11.6948 4.06197 11.7153C3.96849 11.7364 3.87277 11.7817 3.80556 11.878C3.66464 12.0133 3.59826 12.2067 3.63137 12.3988L3.63135 12.3988L3.63183 12.4013L5.82972 23.7839L5.82972 23.7839C6.14905 25.4353 7.65132 26.6357 9.41047 26.6631V26.6631H9.41245H21.8377V26.6632L21.8407 26.6631C23.6044 26.622 25.1031 25.4124 25.4204 23.7562L25.4204 23.7562L25.2957 23.7321L25.4205 23.756L27.6183 12.4013L27.6183 12.4013L27.6188 12.3988C27.6528 12.2016 27.5819 12.003 27.4331 11.8672ZM27.4331 11.8672C27.4333 11.8674 27.4335 11.8676 27.4336 11.8677L27.3471 11.9607L27.4326 11.8668C27.4328 11.8669 27.4329 11.8671 27.4331 11.8672ZM23.9988 23.5689L23.9986 23.5698C23.8133 24.5576 22.909 25.2885 21.8372 25.2985H9.41299C8.34118 25.2885 7.43685 24.5576 7.25156 23.5698L7.25138 23.5689L5.20027 13.0595H26.0499L23.9988 23.5689ZM11.9425 9.18446C11.9425 7.26776 13.5847 5.70241 15.6251 5.70241C17.6655 5.70241 19.3076 7.26776 19.3076 9.18446V11.6949H11.9425V9.18446Z" fill="white" stroke="white" stroke-width="0.254121"/>
+						<path d="M20.0209 18.4736C20.4082 18.4736 20.734 18.1745 20.734 17.7913V16.1256C20.734 15.7423 20.4082 15.4433 20.0209 15.4433C19.6335 15.4433 19.3077 15.7423 19.3077 16.1256V17.7913C19.3077 17.7913 19.3077 17.7913 19.3077 17.7913C19.3076 18.1746 19.6336 18.4736 20.0209 18.4736Z" fill="white" stroke="white" stroke-width="0.254121"/>
+						<path d="M11.2296 18.4736C11.6169 18.4736 11.9428 18.1745 11.9428 17.7913V16.1256C11.9428 15.7423 11.6169 15.4433 11.2296 15.4433C10.8423 15.4433 10.5164 15.7423 10.5164 16.1256V17.7913C10.5164 18.1745 10.8423 18.4736 11.2296 18.4736Z" fill="white" stroke="white" stroke-width="0.254121"/>
+						</svg>
+					</div>
+				</div>
+				
+				<nav class="menu__nav nav">
+					<ul class="nav__list">
+						<li class="nav__item">
+							<a href="#category1" class="nav__link">Мойки</a>
+						</li>
+						<li class="nav__item">
+							<a href="#category2" class="nav__link">Смесители</a>
+						</li>
+						<li class="nav__item">
+							<a href="#category3" class="nav__link">Аксессуары</a>
+						</li>					
+						<li class="nav__item">
+							<a href="#category4" class="nav__link">Плиты</a>
+						</li>
+						<li class="nav__item">
+							<a href="#category5" class="nav__link">Умывальники</a>
+						</li>
+						<li class="nav__item">
+							<a href="#category6" class="nav__link">Manhattan</a>
+						</li>
+						<li class="nav__item">
+							<select class="nav__link nav__link__list" required="">
+					    		<option selected value="Другая">Другая продукция</option>
+					    		<option value="Мойки Rodi (Италия)">Мойки Rodi (Италия)</option>
+					    		<option value="Мойки Status (Португалия)">Мойки Status (Португалия)</option>
+					    		<option value="Смесители Webert (Италия)">Смесители Webert (Италия)</option>
+					    		<option value="Смесители Efferi (Италия)">Смесители Efferi (Италия)</option>
+					    		<option value="Умывальники Webert (Италия)">Умывальники Webert (Италия)</option>
+					    		<option value="Аксессуары Webert (Италия)">Аксессуары Webert (Италия)</option>
+					    		<option value="Аквафор (Россия)">Аквафор (Россия)</option>
+				   			</select>
+						</li>
+					</ul>
+				</nav>
+		</section>
+
+		<section class="header__promo promo">
+			<h1 class="promo__heading">Мойки, смесители и аксессуары</h1>
+			<p class="promo__text">от ведущего производителя сантехники для кухни Reginox</p>
+		</section>
+ 		
+ 		<section class="header__btns btns">
+ 			<button id="btn__bgr" class="btns__content"></button>
+ 			<button id="btn__bgr" class="btns__content"></button>
+ 			<button id="btn__bgr" class="btns__content"></button>
+ 		</section>
+
+ 		<section class="header__blocks blocks">
+ 			<p class="blocks__text">Стальные мойки Reg-color</p>
+ 		</section>
+	</header>
+
+	<main class="main">
+		<section class="main__franchise">
+			<h2 class="franchise__heading">THE CROWN FOR YOUR KITCHEN</h2>
+			<div class="franchise__el">
+				<select class="franchise__list" required=''>
+					<option selected value="Reginox bv, Nederland">Reginox bv, Nederland</option>
+				</select>
+
+				<select class="franchise__list" required=''>
+					<option selected value="Reginox Rif Holding, Russia">Reginox Rif Holding, Russia</option>
+				</select>
+
+				<select class="franchise__list" required=''>
+					<option selected value="Reginox, UK Ltd">Reginox, UK Ltd</option>
+				</select>
+
+				<select class="franchise__list" required=''>
+					<option selected value="Reginox, Singapure">Reginox, Singapure</option>
+				</select>
+			</div>
+			<img class="franchise__blocks" src="blocks.svg">
+		</section>
+
+		<section class="main__catalog catalog">
+			<h2 class="catalog__head head">каталог</h2>
+			<div class="catalog__wrapper">
+				<div class="catalog__element">
+					<img class="element__img" src="photo1.jpg">
+					<h4 class="element__heading">Мойки</h5>
+					<div class="heading__block">
+						<a href=""><img  class="block__class" src="menu.svg" alt="catalog"></a>
+						<p class="block__text">Перейти в каталог</p>
+					</div>
+				</div>
+
+				<div class="catalog__element">
+					<img class="element__img" src="photo2.jpg">
+					<h4 class="element__heading">Смесители</h5>
+					<div class="heading__block">
+						<a href=""><img  class="block__class" src="menu.svg" alt="catalog"></a>
+						<p class="block__text">Перейти в каталог</p>
+					</div>
+				</div>
+
+				<div class="catalog__element">
+					<img class="element__img" src="photo3.jpg">
+					<h4 class="element__heading">Аксессуары</h5>
+					<div class="heading__block">
+						<a href=""><img  class="block__class" src="menu.svg" alt="catalog"></a>
+						<p class="block__text">Перейти в каталог</p>
+					</div>
+				</div>
+
+				<div class="catalog__element">
+					<img class="element__img" src="photo4.jpg">
+					<h4 class="element__heading">Плиты</h5>
+					<div class="heading__block">
+						<a href=""><img  class="block__class" src="menu.svg" alt="catalog"></a>
+						<p class="block__text">Перейти в каталог</p>
+					</div>
+				</div>
+
+				<div class="catalog__element">
+					<img class="element__img" src="photo5.jpg">
+					<h4 class="element__heading">Умывальники</h5>
+					<div class="heading__block">
+						<a href=""><img  class="block__class" src="menu.svg" alt="catalog"></a>
+						<p class="block__text">Перейти в каталог</p>
+					</div>
+				</div>
+
+				<div class="catalog__element">
+					<img class="element__img" src="photo6.jpg">
+					<h4 class="element__heading">Столешницы</h5>
+					<div class="heading__block">
+						<a href=""><img  class="block__class" src="menu.svg" alt="catalog"></a>
+						<p class="block__text">Перейти в каталог</p>
+					</div>
+				</div>
+
+				<div class="catalog__element">
+					<img class="element__img" src="photo7.jpg">
+					<h4 class="element__heading">Системы хранения Manhattan </h5>
+					<div class="heading__block">
+						<a href=""><img  class="block__class" src="menu.svg" alt="catalog"></a>
+						<p class="block__text">Перейти в каталог</p>
+					</div>
+				</div>
+
+				<div class="catalog__element">
+					<img class="element__img" src="photo8.jpg">
+					<h4 class="element__heading">Измельчители Bone Crusher</h5>
+					<div class="heading__block">
+						<a href=""><img  class="block__class" src="menu.svg" alt="catalog"></a>
+						<p class="block__text">Перейти в каталог</p>
+					</div>
+				</div>
+
+				<div class="catalog__element">
+					<img class="element__img" src="photo9.jpg">
+					<h4 class="element__heading">Иная продукция</h5>
+					<div class="heading__block">
+						<a href=""><img  class="block__class" src="menu.svg" alt="catalog"></a>
+						<p class="block__text">Перейти в каталог</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="main__popilar popilar">
+			<h2 class="popilar__heading">Популярные товары</h2>
+			<div class="popilar__wrapper">
+				<div class="popilar__el">
+					<img class="el__img" src="image1.png">
+					<strong class="el__text">Amsterdam 25 Dark chocolate</strong>
+					<p class="el__text">9 950 руб</p>
+					<div class="el__block">
+						<a href=""><img  class="block__class" src="card.svg" alt="card"></a>
+						<p class="block__text">В корзину</p>
+					</div>
+				</div>
+
+				<div class="popilar__el">
+					<img class="el__img" src="image2.jpg">
+					<strong class="el__text">YADKIN K1065K black</strong>
+					<p class="el__text">31 000 руб</p>
+					<div class="el__block">
+						<a href=""><img  class="block__class" src="card.svg" alt="card"></a>
+						<p class="block__text">В корзину</p>
+					</div>
+				</div>
+
+				<div class="popilar__el">
+					<img class="el__img" src="image3.jpg">
+					<strong class="el__text">Diplomat R 20 lux</strong>
+					<p class="el__text">17 000 руб</p>
+					<div class="el__block">
+						<a href=""><img  class="block__class" src="card.svg" alt="card"></a>
+						<p class="block__text">В корзину</p>
+					</div>
+				</div>
+
+				<div class="popilar__el">
+					<img class="el__img" src="image4.jpg">
+					<strong class="el__text">Столешница WAFELBLAD R00939</strong>
+					<p class="el__text">47 520 руб</p>
+					<div class="el__block">
+						<a href=""><img  class="block__class" src="card.svg" alt="card"></a>
+						<p class="block__text">В корзину</p>
+					</div>
+				</div>
+
+				<div class="popilar__el">
+					<img class="el__img" src="image5.jpg">
+					<strong class="el__text">Amsterdam 34 Caffe Silvery</strong>
+					<p class="el__text">19 000 руб</p>
+					<div class="el__block">
+						<a href=""><img  class="block__class" src="card.svg" alt="card"></a>
+						<p class="block__text">В корзину</p>
+					</div>
+				</div>
+
+				<div class="popilar__el">
+					<img class="el__img" src="image6.jpg">
+					<strong class="el__text">R18 370 OSP lux</strong>
+					<p class="el__text">7 300 руб</p>
+					<div class="el__block">
+						<a href=""><img  class="block__class" src="card.svg" alt="card"></a>
+						<p class="block__text">В корзину</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="main__about about">
+			<h2 class="about__heading">О компании</h2>
+			<div class="about__wrapper">
+				<p class="about__text text__visible">Добро пожаловать на сайт Компании Reginox Reef Holding (ООО «РеджиноксРиф   Холдинг») — единственного и официального   представителя производителя сантехнической продукции для кухни и ванной комнаты Reginox (Нидерланды).</p>
+
+				<a href="" class="text__link">Читать полностью</a>
+
+				<p class="about__text text__min">Основной специализацией нашей компании являются розничные и оптовые продажи кухонной сантехники по всей России. Мы предлагаем кухонные мойки из нержавеющей стали и гранитного композита,  смесители для кухни, а также оригинальную продукцию от Reginox:</p>
+
+				<ul class="about__list text__min">
+					<li class="about__el"><span class="list__el">умывальники</span></li>
+					<li class="about__el"><span class="list__el">окрашенные мойки</span></li>
+					<li class="about__el"><span class="list__el">системы газовых конфорок PITTbyReginox</span></li>
+					<li class="about__el"><span class="list__el">многофункциональные кухонные комплексы и др.</span></li>
+				</ul>
+
+				<p class="about__text text__min">Более 25 лет назад компания RRHolding представила на российском рынке кухонные мойки Reginox из нержавеющей стали, приятно удивившие покупателей отличным качеством, многообразием моделей и современным дизайном. Продукция Reginox входит в постоянный ассортимент ряда крупных фабрик-производителей мебели, введена в предложение крупнейших продавцов мебельной фурнитуры и комплектующих, и представлена вомножестве кухонных салонов по всей России. За годы нашей работы мы заключили контракты в сферах: </p>
+
+				<ul class="about__list text__min">
+					<li class="about__el"><span class="list__el">авиастроение</span></li>
+					<li class="about__el"><span class="list__el">вагоностроение</span></li>
+					<li class="about__el"><span class="list__el">судостроение</span></li>
+					<li class="about__el"><span class="list__el">здравоохранение</span></li>
+					<li class="about__el"><span class="list__el">предприятия общественного питания</span></li>
+					<li class="about__el"><span class="list__el">иные учреждения сферы обслуживания и др.</span></li>
+				</ul>
+
+				<h4 class="about__heading__text text__min">наши преимущества</h4>
+
+				<ul class="about__list text__min">
+					<li class="about__el"><span class="list__el">многолетний опыт, профессиональный подход, надежное партнерство и отличная репутация на рынке</span></li>
+					<li class="about__el"><span class="list__el">высококачественный европейский товар и гарантия производителя, соответствие всем международным и российским стандартам и требованиям</span></li>
+					<li class="about__el"><span class="list__el">постоянное наличие на складе Москвы и Санкт-Петербурга (официальное представительство ООО «Ревестал»), а также возможность изготовления под индивидуальный заказ</span></li>
+					<li class="about__el"><span class="list__el">работа с розничными покупателями, с мелкооптовыми и крупно-оптовыми заказчиками, сотрудничество с каждым покупателем или бизнес-партнером по специальной программе и индивидуальной ценовой политике</span></li>
+					<li class="about__el"><span class="list__el">широкий ассортимент и различные модификации, позволяющие реализовать проекты в различных сферах- доставка в любую точку России</span></li>
+				</ul>
+
+				<p class="about__text text__min">Благодаря многолетнему и плодотворному тандему RRHolding и Reginox, сегодня мы имеем большое количество бизнес-партнеров, в том числе и за пределами РФ, с которыми поддерживаем и развиваем взаимовыгодные отношения, приобрели популярность среди потребителей, и сохранили за собой статус компании, предлагающей на рынке России продукцию со «стальной репутацией». Мы предлагаем лучшее качество от европейского завода-производителя (завод   расположен   в   Нидерландах,   город   Rijssen) и пожизненную гарантию на продукцию из нержавеющей стали!</p>
+			</div>
+		</section>
+
+		<section class="main__final">
+			<div class="final__min">
+				<button class="final__component">Компания 
+					<svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12.5104 6.01953L6.99967 1.29617L1.48927 6.01953" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>	
+				</button>  
+				<ul class="final__list">
+					<a href="" class="final__el"><li>О компании</li></a>
+					<a href="" class="final__el"><li>Акции и новинки</li></a>
+					<a href="" class="final__el"><li>Каталог</li></a>
+					<a href="" class="final__el"><li>Доставка и оплата</li></a>
+					<a href="" class="final__el"><li>Контакты</li></a>
+					<a href="" class="final__el"><li>Информация для покупателей</li></a>
+				</ul>
+			</div>
+			<div class="final__max">
+				<button class="final__component">О компании 
+					<svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12.5104 6.01953L6.99967 1.29617L1.48927 6.01953" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>	
+				</button>  
+				<ul class="final__list">
+					<a href="" class="final__el"><li>Почему мы</li></a>
+					<a href="" class="final__el"><li>Наши партнеры</li></a>
+					<a href="" class="final__el"><li>Сертификаты и гарантии</li></a>
+					<a href="" class="final__el"><li>Статьи</li></a>
+					<a href="" class="final__el"><li>Информация</li></a>
+					<a href="" class="final__el"><li>Каталоги</li></a>
+					<a href="" class="final__el"><li>Доставка и оплата</li></a>
+					<a href="" class="final__el"><li>Контакты</li></a>
+				</ul>
+			</div>
+			<div>
+				<button class="final__component">Каталог 
+					<svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12.5104 6.01953L6.99967 1.29617L1.48927 6.01953" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>	
+				</button>  
+				<ul class="final__list">
+					<a href="" class="final__el"><li>Мойки</li></a>
+					<a href="" class="final__el"><li>Смесители</li></a>
+					<a href="" class="final__el"><li>Аксессуары</li></a>
+					<a href="" class="final__el"><li>Плиты</li></a>
+					<a href="" class="final__el"><li>умывальники</li></a>
+					<a href="" class="final__el"><li>Столешницы</li></a>
+					<a href="" class="final__el"><li>Системы хранения Manhattan</li></a>
+					<a href="" class="final__el"><li>Измельчители Bone Crusher</li></a>
+					<a href="" class="final__el"><li>Другая продукция</li></a>
+				</ul>
+			</div>
+
+			<div>
+				<button class="final__component">Бренды 
+					<svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12.5104 6.01953L6.99967 1.29617L1.48927 6.01953" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>	
+				</button>  
+				<ul class="final__list">
+					<a href="" class="final__el"><li>Reginox</li></a>
+					<a href="" class="final__el"><li >Rodi</li></a>
+					<a href="" class="final__el"><li>Whinstone</li></a>
+					<a href="" class="final__el"><li>Rerih</li></a>
+					<a href="" class="final__el"><li>Status</li></a>
+					<a href="" class="final__el"><li>Bone Crusher</li></a>
+					<a href="" class="final__el"><li>Armando Vicario</li></a>
+					<a href="" class="final__el"><li>Webert</li></a>
+					<a href="" class="final__el"><li>Effepi</li></a>
+					<a href="" class="final__el"><li>Glionna Bagno</li></a>
+					<a href="" class="final__el"><li>Аквафор</li></a>
+				</ul>
+			</div>
+			<div class="final__min">
+				<button class="final__component">О магазине 
+					<svg width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M12.5104 6.01953L6.99967 1.29617L1.48927 6.01953" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>	
+				</button>  
+				<ul class="final__list">
+					<a href="" class="final__el"><li>Почему мы</li></a>
+					<a href="" class="final__el"><li>Наши партнеры</li></a>
+					<a href="" class="final__el"><li>Гарантии</li></a>
+					<a href="" class="final__el"><li>Подробнее</li></a>
+				</ul>
+			</div>
+			<div class="final__link">
+				<a href="">
+					<img class="footer__img" src="faceb.svg">
+				</a>
+				<a href="">
+					<img class="footer__img" src="twit.svg">
+				</a>
+				<a href="">
+					<img class="footer__img" src="vkk.svg">
+				</a>
+				<a href="">
+					<img class="footer__img" src="insta.svg">
+				</a>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<section class="footer">
+			<div class="footer__firstline">
+				<img class="footer__img ft__imgmin" src="pictire1.svg">
+				<img class="footer__img ft__imgmin" src="pictire2.svg">
+			</div>
+			<div  class="final__link__max">
+				<a href="">
+					<img class="footer__img" src="facebook.svg">
+				</a>
+				<a href="">
+					<img class="footer__img" src="twitter.svg">
+				</a>
+				<a href="">
+					<img class="footer__img" src="vk.svg">
+				</a>
+				<a href="">
+					<img class="footer__img" src="inst.svg">
+				</a>
+			</div>
+			<img class="footer__blocks" src="blocks.svg">
+		</section>
+
+		<section class="footer__info">
+			<p class="info__text">Политика конфеденциальности</p>
+			<p class="info__text">2020 © Reginox-shop</p>
+		</section>
+	</footer>
+
+</body>
+</html>
